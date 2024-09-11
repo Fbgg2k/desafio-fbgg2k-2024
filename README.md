@@ -129,8 +129,3 @@ O **export** da classe deve ser mantido da seguinte maneira para compatibilidade
 ```js
 export { RecintosZoo as RecintosZoo };
 ```
-
-Se todos os passos forem seguidos corretamente, você terá um repositório como o da figura abaixo (lembrando que é permitido criar mais arquivos), onde `seuUsername` é o seu usuário do GitHub, que você informou no questionário da Gupy.
-
-![Exemplo de repositório](https://startdbstorage.blob.core.windows.net/filecontainer/imagem-estrutura.png)
-
