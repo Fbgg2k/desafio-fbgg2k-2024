@@ -1,0 +1,25 @@
+{
+  "name": "desafio-zoo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node src/recintos-zoo.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
