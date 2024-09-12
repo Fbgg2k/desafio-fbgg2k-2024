@@ -1,5 +1,5 @@
-import { RecintosZoo } from "./recintos-zoo.js"; 
-//import { RecintosZoo } from "./recintos-zooexport.js"; //Alterar para export para testes automáticos
+//import { RecintosZoo } from "./recintos-zoo.js"; 
+import { RecintosZoo } from "./recintos-zooexport.js"; //Alterar para export para testes automáticos
 
 describe('Recintos do Zoologico', () => {
 
